@@ -10,10 +10,12 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 130px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 130px;
 }
 .half-width{
     width: 50%;
@@ -23,7 +25,7 @@ section{
 .half-width img{
     width:58%;
 }
-.read-me-button{
+.button{
     text-decoration: none;
     font-weight: 700;
     color: white;
@@ -31,4 +33,10 @@ section{
     padding:7px 15px ;
     border-radius: 10px;
     background-image: linear-gradient(coral, rgb(243, 132, 6))
+}
+.second-banner{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right ;
 }
